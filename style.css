@@ -51,7 +51,7 @@ nav{
     font-weight: 500;
     color: #fff;
     text-align: center;
-    padding-top: 22%;
+    padding-top: 15%;
 }
 
 .search-bar{
@@ -73,6 +73,12 @@ nav{
     border: 0;
     outline: none;
     background: transparent;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
 }
 
 .search-bar form button{
@@ -130,6 +136,16 @@ nav{
     color: #fff;
 }
 
+.exclusives div:hover img {
+    transform: scale(1.2);
+}
+
+.exclusives div:hover span {
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    font-weight: 200;
+}
+
 /* ---- Trending ---- */
 
 .trending {
@@ -152,7 +168,7 @@ nav{
 
 .cta {
     margin: 80px 0;
-    background-image: linear-gradient(to right,#3f2321,transparent),url(images/banner-2.png);
+    background-image: linear-gradient(to right,#523f3e,transparent),url(images/imagem-casamento.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -181,49 +197,6 @@ nav{
     display: inline-block;
 }
 
-/* ---- Travellers Stories ----*/
-
-.stories{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 30px;
-    margin-bottom: 30px;
-}
-
-.stories div img{
-    width: 100%;
-    border-radius: 10px;
-}
-
-.stories div{
-    position: relative;
-    text-align: center;
-}
-
-.stories p{
-    width: 80%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    color: #fff;
-    font-size: 26px;
-}
-
-.start-btn{
-    text-decoration: none;
-    background: #ff5351;
-    color: #fff;
-    width: 80%;
-    max-width: 400px;
-    display: block;
-    text-align: center;
-    margin: 60px auto;
-    padding: 15px;
-    border-radius: 30px;
-    font-size: 20px;
-}
-
 /*----About---- */
 
 .about-msg{
@@ -231,6 +204,7 @@ nav{
     margin: 40px 0;
     color: #333;
     font-size: 17px;
+    border-radius: 10px;
 }
 
 .about-msg p{
@@ -261,7 +235,7 @@ nav{
     padding-bottom: 15px;
 }
 
-
+/*
 .active {
     position: relative;
 }
@@ -276,6 +250,21 @@ nav{
     transform: translate(-50%);
     bottom: -12px;
     border-radius: 2px;
+}
+*/
+
+.start-btn{
+    text-decoration: none;
+    background: #ff5351;
+    color: #fff;
+    width: 80%;
+    max-width: 400px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
 }
 
 
